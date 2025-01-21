@@ -54,20 +54,24 @@
 /* Media queries para telas menores */
 @media (max-width: 768px) {
     .footer {
-        flex-direction: column; /* Muda para coluna em telas menores */
-        align-items: center; /* Centraliza os itens em telas menores */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas em telas menores */
+        gap: 10px;
+        align-items: flex-start;
     }
 }
 
+/*
 @media (max-width: 480px) {
     .footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Duas colunas em telas menores */
-        gap: 10px;
+        /*gap: 10px;
+        align-items: flex-start;
     }
 }
-
-@media (max-width: 320px) {
+*/
+@media (max-width: 400px) {
     .footer {
         display: grid;
         grid-template-columns: 1fr; /* Uma coluna em telas muito pequenas */
