@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { sidebars } from '../../sidebarData'; // Importa os dados
+import './Sidebar.css';
 
 const Sidebar = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
