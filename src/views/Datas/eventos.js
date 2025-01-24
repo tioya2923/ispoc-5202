@@ -16,14 +16,14 @@ export const lastEvent = [
     {
       date: "26/01/2025",
       time: "10:00",
-      theme: "Hackathon",
-      location: "Espaço Coworking",
+      theme: "Hackathon. Sobre o bem e o mal no mundo",
+      location: "Espaço Coworking.",
       image: "https://cdn.pixabay.com/photo/2024/12/23/17/14/switzerland-9287004_1280.jpg",
     },
     {
       date: "27/01/2025",
       time: "09:00",
-      theme: "Conferência de Startups",
+      theme: "Conferência de Startups. A Educação infantil e juvenil nos dias de hoje",
       location: "Auditório Principal",
       image: "https://cdn.pixabay.com/photo/2024/11/11/17/39/dog-9190504_1280.jpg",
     },

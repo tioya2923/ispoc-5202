@@ -28,6 +28,7 @@
 .event-large {
     flex: 3;
     /* Diminuir o tamanho do evento principal */
+    background-color: #ffffff;
 
 }
 
@@ -36,6 +37,7 @@
     flex: 1;
     flex-direction: column;
     gap: 10px;
+   
 }
 
 .event {
@@ -45,6 +47,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    background-color: #ffffff;
     /* Centralizar os itens verticalmente */
 }
 
@@ -68,6 +71,7 @@
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    
 }
 
 .event-large .event-content {

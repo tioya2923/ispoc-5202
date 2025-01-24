@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: #f9f6f6;
   }
   
   h2 {
@@ -18,6 +19,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    
   }
   
   .noticia-item {
@@ -28,6 +30,7 @@
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
+    background-color: #ffffff;
   }
   
   .noticia-item a {
