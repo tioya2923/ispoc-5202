@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { sidebars } from '../../sidebarData'; // Importa os dados
+import { sidebars } from '../../Datas/sidebarData'; // Importa os dados
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -24,12 +24,10 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <button onClick={handlePrevClick}>&lt;</button>
-      <div className="content">
-        <div className="description">
-          {sidebars[currentIndex].description}
-        </div>
+      <div className="content">        
         <div className="image">
           <img src={sidebars[currentIndex].image} alt="Descrição da Imagem" />
+          <div className="text-overlay">{sidebars[currentIndex].description}</div>
         </div>
       </div>
       <button onClick={handleNextClick}>&gt;</button>
