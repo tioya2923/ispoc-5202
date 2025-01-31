@@ -23,9 +23,9 @@ export const lastEvent = [
     {
       date: "27/01/2025",
       time: "09:00",
-      theme: "Conferência de Startups. A Educação infantil e juvenil nos dias de hoje",
+      theme: "Conferência de Startups.  Educação infantil e juvenil nos dias de hoje, Conferência de Startups. A Educação infantil e juvenil nos dias de hoje",
       location: "Auditório Principal",
-      image: "https://cdn.pixabay.com/photo/2024/11/11/17/39/dog-9190504_1280.jpg",
+      image: "https://dentistaubatuba.com.br/wp-content/uploads/2021/06/o-que-as-pessoas-bonitas-tem-em-comum-2.jpg",
     },
   ];
 

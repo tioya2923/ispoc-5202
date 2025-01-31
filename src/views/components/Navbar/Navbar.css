@@ -2,7 +2,6 @@
 .navbar-container {
     display: flex;
     justify-content: center;
-  
 }
 
 .navbar {
@@ -39,10 +38,11 @@
     display: flex;
     justify-content: center;
     padding: 10px;
+   
 }
 
 .navbar-line-two {
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 .navbar-line a {
@@ -88,18 +88,48 @@
 .hamburger.open .line:nth-child(1) {
     transform: rotate(45deg) translate(4px, 4px);
     background-color: #000; /* Cor do X */
-   
 }
 
 .hamburger.open .line:nth-child(2) {
     opacity: 0;
-    
 }
 
 .hamburger.open .line:nth-child(3) {
     transform: rotate(-45deg) translate(4px, -4px);
     background-color: #000; /* Cor do X */
     width: -10px;
+}
+
+/* Dropdown */
+.dropdown {
+    position:absolute;   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    z-index: 1;
+    padding: 10px; /* Adicionado para espaçamento interno */
+    width: 100%;  
+    left: 0;
+    right: 0;
+    background-color: #00000071;
+    
+   
+}
+
+.dropdown-column {
+    margin: 0 auto;
+    left: auto;
+}
+
+.dropdown-column a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+}
+
+.dropdown-column a:hover {
+    background-color: #aac4d2;
 }
 
 /* Responsividade */
@@ -112,7 +142,6 @@
 
     .hamburger {
         display: flex;
-        
     }
 
     .navbar-links {

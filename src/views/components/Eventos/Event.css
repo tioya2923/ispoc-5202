@@ -1,10 +1,9 @@
 .event-main {
     background-color: #f6f4f4;
-    border: 0px solid #ccc;
+    border: none;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    align-items: center;
 }
 
 .title-h2 {
@@ -16,20 +15,18 @@
 .event-list {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch; /* Estica os itens para terem a mesma altura */
     gap: 10px;
     max-width: 70%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-
+    margin: 20px auto 30px;
 }
 
 .event-large {
-    flex: 3;
-    /* Diminuir o tamanho do evento principal */
+    flex: 2; /* Diminuir a largura do evento principal */
+    max-width: 60%; /* Definir a largura máxima */
     background-color: #ffffff;
-
+    display: flex;
+    flex-direction: column; /* Garantir que os filhos do evento grande sejam empilhados verticalmente */
 }
 
 .event-small-container {
@@ -37,7 +34,6 @@
     flex: 1;
     flex-direction: column;
     gap: 10px;
-   
 }
 
 .event {
@@ -48,13 +44,12 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    /* Centralizar os itens verticalmente */
+    flex: 1; /* Faz com que o evento ocupe a altura disponível */
+    overflow: hidden; /* Garantir que o conteúdo não extravase os limites do contêiner */
 }
 
 .event-small {
-    width: 90%;
-    /* Aumentar a largura dos eventos pequenos */
-    margin: 0 auto;
+    width: 100%;
     flex-direction: row-reverse;
     /* Inverter a direção do flex para os eventos pequenos */
 }
@@ -71,14 +66,16 @@
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    
+    /*white-space: nowrap;  Prevenir quebras de linha */    
+    overflow: hidden; /* Esconder texto excedente */
+    text-overflow: ellipsis; /* Adicionar reticências ao texto excedente */
 }
 
 .event-large .event-content {
     align-items: start;
-    /* Alinhar o conteúdo do evento principal à direita */
+    /* Alinhar o conteúdo do evento principal à esquerda */
     text-align: left;
-    /* Alinhar texto à direita */
+   
 }
 
 .event-date,
@@ -102,9 +99,9 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-  }
-  
-  .mais-eventos-link {
+}
+
+.mais-eventos-link {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1rem;
@@ -114,9 +111,8 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
     text-align: center;
-  }
-  
-  .mais-eventos-link:hover {
+}
+
+.mais-eventos-link:hover {
     background-color: #0056b3;
-  }
-  
+}
