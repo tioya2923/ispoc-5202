@@ -33,8 +33,12 @@ const Footer = () => {
           <div className="footer-links">
             <div className='title-footer'>Morada</div>
             <div className='address'>Rua São Paulo II, Huambo, Angola</div>
-            <div className='address'>info@ispoc.ao</div>
-            <div className='address'>+244 945 836 101</div>
+            <div>
+              <a href="mailto:info@ispoc.ao" className='address'>info@ispoc.ao</a>
+            </div>
+            <div>
+              <a href="tel:+244945836101" className='address'>+244 945 836 101</a>
+            </div>
           </div>
           <div className="footer-links">
             <div className='title-footer'>Junte-se a nós</div>
