@@ -29,8 +29,31 @@ const Footer = () => {
           <div className="footer-links">
             <div className='title-footer'>Ligações úteis</div>
             <div className='other-footers-links'><a href='#e-servicos'>E-Serviços</a></div>
-            <div className='other-footers-links'><a href='#moodle'>Moodle</a></div>
           </div>
+          <div className="footer-links">
+            <div className='title-footer'>Morada</div>
+            <div className='address'>Rua São Paulo II, Huambo, Angola</div>
+            <div className='address'>info@ispoc.ao</div>
+            <div className='address'>+244 945 836 101</div>
+          </div>
+          <div className="footer-links">
+            <div className='title-footer'>Junte-se a nós</div>
+            <div className='social-icons'>
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-facebook-f" style={{ color: 'white', margin: '0 10px' }}></i>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin-in" style={{ color: 'white', margin: '0 10px' }}></i>
+              </a>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-youtube" style={{ color: 'white', margin: '0 10px' }}></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-instagram" style={{ color: 'white', margin: '0 10px' }}></i>
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

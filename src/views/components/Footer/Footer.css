@@ -52,6 +52,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.address {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    left: 0;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    background-color: #2f17e65e; /* Cor de fundo do círculo */
+    border-radius: 50%; /* Torna o fundo um círculo */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 20px; /* Tamanho do ícone */
+    color: white; /* Cor do ícone */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px; /* Largura do círculo */
+    height: 20px; /* Altura do círculo */
+    text-decoration: none; 
+}
+
+
 /* Media queries para telas menores */
 @media (max-width: 768px) {
     .footer {
